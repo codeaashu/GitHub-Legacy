@@ -93,9 +93,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-Ömer YALDIRGAN - [@warrior_aashuu](https://twitter.com/warrior_aashuu)
-
-Project Link: [https://github.com/codeaashu/GitHub-Legacy](https://github.com/codeaashu/GitHub-Legacy)
-
----
-Made by [Ömer YALDIRGAN](https://github.com/codeaashu/)
+Ashutosh Singh - [@warrior_aashuu](https://twitter.com/warrior_aashuu)
