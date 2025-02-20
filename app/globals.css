@@ -1,0 +1,357 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Ana font sistemi */
+  :root {
+    --font-xxs: 0.625rem;    /* 10px */
+    --font-xs: 0.75rem;      /* 12px */
+    --font-sm: 0.875rem;     /* 14px */
+    --font-base: 1rem;       /* 16px */
+    --font-lg: 1.125rem;     /* 18px */
+    --font-xl: 1.25rem;      /* 20px */
+    --font-2xl: 1.5rem;      /* 24px */
+    --font-3xl: 1.875rem;    /* 30px */
+    --font-4xl: 2.25rem;     /* 36px */
+    --font-mobile-base: 14px;
+    --font-desktop-base: 16px;
+  }
+
+  body {
+    @apply bg-surface-50 text-surface-900 antialiased;
+    font-size: var(--font-mobile-base);
+    line-height: 1.5;
+  }
+
+  html {
+    font-size: var(--font-mobile-base);
+    @screen sm {
+      font-size: var(--font-desktop-base);
+    }
+  }
+
+  /* Başlık stilleri */
+  h1 {
+    @apply text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight;
+    line-height: 1.2;
+  }
+
+  h2 {
+    @apply text-xl sm:text-2xl lg:text-3xl font-semibold;
+    line-height: 1.3;
+  }
+
+  h3 {
+    @apply text-lg sm:text-xl font-medium;
+    line-height: 1.4;
+  }
+
+  /* Metin boyutları */
+  .text-caption {
+    font-size: var(--font-xs);
+    line-height: 1.4;
+  }
+
+  .text-body-sm {
+    font-size: var(--font-sm);
+    line-height: 1.5;
+  }
+
+  .text-body {
+    @apply text-sm sm:text-base;
+    line-height: 1.6;
+  }
+
+  /* Özel bileşen stilleri */
+  .resume-title {
+    font-size: var(--font-2xl);
+    @apply font-bold tracking-tight;
+  }
+
+  .resume-section-title {
+    font-size: var(--font-xl);
+    @apply font-semibold mb-4;
+  }
+
+  .resume-subsection-title {
+    font-size: var(--font-lg);
+    @apply font-medium mb-2;
+  }
+
+  .resume-text {
+    font-size: var(--font-sm);
+    @apply leading-relaxed;
+  }
+
+  .resume-meta {
+    font-size: var(--font-xs);
+    @apply text-surface-600 dark:text-dark-secondary;
+  }
+
+  /* Buton ve form elemanları */
+  .btn {
+    @apply px-4 py-2 sm:px-6 sm:py-3 rounded-lg font-medium 
+           transition-all duration-200 ease-in-out
+           focus:outline-none focus:ring-2 focus:ring-offset-2;
+  }
+
+  .input-label {
+    font-size: var(--font-sm);
+    @apply font-medium text-surface-700 dark:text-dark-secondary;
+  }
+
+  .input-text {
+    font-size: var(--font-base);
+    @apply leading-normal;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary-600 text-white hover:bg-primary-700
+           dark:bg-primary-500 dark:hover:bg-primary-600;
+  }
+
+  .input-primary {
+    @apply w-full px-4 py-3 border border-surface-200 rounded-lg bg-white
+           focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent
+           placeholder:text-surface-400;
+  }
+
+  .card {
+    @apply p-4 sm:p-6 rounded-xl bg-white dark:bg-dark-card shadow-card;
+  }
+}
+
+@layer utilities {
+  .dark-transition {
+    @apply transition-colors duration-200;
+  }
+  
+  .dark-hover {
+    @apply hover:bg-surface-100 dark:hover:bg-surface-800;
+  }
+
+  .container {
+    @apply px-4 sm:px-6 lg:px-8 mx-auto max-w-7xl;
+  }
+
+  /* Ana layout yapısı */
+  .layout-container {
+    @apply min-h-screen w-full;
+  }
+
+  /* Responsive spacing */
+  .section-spacing {
+    @apply space-y-4 sm:space-y-6 lg:space-y-8;
+  }
+
+  .content-spacing {
+    @apply space-y-3 sm:space-y-4;
+  }
+
+  .cv-container {
+    @apply mx-auto shadow-card;
+    background-color: white;
+    padding: 1rem;
+    
+    @screen sm {
+      padding: 1.5rem;
+    }
+    
+    @screen md {
+      padding: 2rem;
+    }
+    
+    @screen lg {
+      padding: 2.5rem;
+    }
+  }
+
+  .dark .cv-container {
+    background-color: var(--dark-card-bg);
+  }
+}
+
+/* Dark mode için input stilleri */
+.dark .input-primary {
+  @apply bg-dark-card border-dark text-dark placeholder:text-dark-secondary;
+}
+
+/* Dark mode için button stilleri */
+.dark .btn-primary {
+  background-color: #0369a1;
+}
+.dark .btn-primary:hover {
+  background-color: #075985;
+}
+
+/* Dark mode için card stilleri */
+.dark .card {
+  background-color: #1F2937;
+  border-color: #374151;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #cbd5e1;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #94a3b8;
+}
+
+#__next {
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Print stilleri */
+@media print {
+  @page {
+    size: A4;
+    margin: 0;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  .cv-container {
+    width: 210mm !important;
+    min-height: 297mm !important;
+    padding: 15mm !important;
+    margin: 0 !important;
+    background-color: white !important;
+    box-shadow: none !important;
+    font-size: 11pt !important;
+    line-height: 1.4 !important;
+    color: #000 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Kartlar ve bölümler */
+  .cv-container section,
+  .cv-container .bg-white,
+  .cv-container .dark\:bg-dark-card {
+    background: white !important;
+    padding: 4mm !important;
+    margin-bottom: 5mm !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+    border: 1px solid #eee !important;
+  }
+
+  /* Grid düzeni */
+  .cv-container .grid {
+    display: grid !important;
+    grid-gap: 5mm !important;
+  }
+
+  .cv-container .md\:grid-cols-2 {
+    grid-template-columns: 1fr 1fr !important;
+  }
+
+  /* Başlıklar ve metinler */
+  .cv-container h1 { font-size: 18pt !important; }
+  .cv-container h2 { font-size: 16pt !important; }
+  .cv-container h3 { font-size: 14pt !important; }
+  .cv-container p { font-size: 11pt !important; }
+
+  /* Teknoloji etiketleri */
+  .cv-container .inline-flex {
+    display: inline-flex !important;
+    padding: 1mm 2mm !important;
+    margin: 1mm !important;
+    border: 1px solid #eee !important;
+    background: #f8f9fa !important;
+  }
+
+  /* Görünürlük kontrolleri */
+  .no-print,
+  .customize-panel {
+    display: none !important;
+  }
+
+  /* Sayfa sonu kontrolü */
+  .page-break-inside-avoid {
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+    margin-bottom: 5mm !important;
+  }
+}
+
+@media screen and (min-width: 0\0) {
+  /* Print mode stilleri */
+  .print-mode {
+    /* ... aynı print stilleri ... */
+  }
+}
+
+/* Mobil navigasyon ve menü */
+.mobile-nav {
+  @apply fixed inset-0 z-50 bg-white dark:bg-dark-card;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.mobile-nav.open {
+  transform: translateX(0);
+}
+
+/* Responsive grid sistemleri */
+.responsive-grid {
+  @apply grid gap-4 sm:gap-6;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+/* Form elemanları */
+.input {
+  @apply w-full px-3 py-2 sm:px-4 sm:py-3 rounded-lg
+         border border-surface-200 dark:border-dark
+         focus:ring-2 focus:ring-primary-500 focus:border-transparent;
+}
+
+/* Responsive padding ve margin */
+@screen sm {
+  .cv-container {
+    padding: 1.5rem !important;
+  }
+  
+  .card {
+    padding: 1.25rem !important;
+  }
+}
+
+@screen md {
+  .cv-container {
+    padding: 2rem !important;
+  }
+  
+  .card {
+    padding: 1.5rem !important;
+  }
+}
+
+/* Print modu için özel padding */
+@media print {
+  .cv-container {
+    padding: 15mm !important;
+    width: 210mm !important;
+    min-height: 297mm !important;
+  }
+}
+
