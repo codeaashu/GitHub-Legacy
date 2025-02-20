@@ -93,7 +93,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-Ömer YALDIRGAN - [@omeryaldirgan](https://twitter.com/omeryaldirgan)
+Ömer YALDIRGAN - [@warrior_aashuu](https://twitter.com/warrior_aashuu)
 
 Project Link: [https://github.com/omeryaldirgan/github-resume-generator](https://github.com/omeryaldirgan/github-resume-generator)
 
