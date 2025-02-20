@@ -1,4 +1,4 @@
-# GitHub Resume Generator
+# GitHub Legacy
 
 Transform your GitHub profile into a professional resume instantly. This tool automatically generates beautiful, customizable resumes by analyzing your GitHub activity, repositories, and contributions.
 
@@ -32,8 +32,8 @@ Transform your GitHub profile into a professional resume instantly. This tool au
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/omeryaldirgan/github-resume-generator.git
-cd github-resume-generator
+git clone https://github.com/codeaashu/GitHub-Legacy.git
+cd github-legacy
 ```
 
 2. Install dependencies:
@@ -95,7 +95,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Ömer YALDIRGAN - [@warrior_aashuu](https://twitter.com/warrior_aashuu)
 
-Project Link: [https://github.com/omeryaldirgan/github-resume-generator](https://github.com/omeryaldirgan/github-resume-generator)
+Project Link: [https://github.com/codeaashu/GitHub-Legacy](https://github.com/codeaashu/GitHub-Legacy)
 
 ---
-Made with ❤️ by [Ömer YALDIRGAN](https://github.com/omeryaldirgan)
+Made by [Ömer YALDIRGAN](https://github.com/codeaashu/)
