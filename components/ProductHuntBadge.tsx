@@ -15,7 +15,7 @@ export default function ProductHuntBadge({ size = 'large', className = '' }: Pro
 
   return (
     <a 
-      href="https://www.producthunt.com/posts/github-resume-generator-2"
+      href="https://www.producthunt.com/posts/devdisplay"
       target="_blank"
       rel="noopener noreferrer"
       className={`inline-block hover:opacity-90 transition-opacity ${className}`}

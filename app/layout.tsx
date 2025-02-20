@@ -8,7 +8,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: "GitHub Resume Generator",
+  title: "GitHub Legacy",
   description: "Transform your GitHub profile into a professional resume",
 };
 

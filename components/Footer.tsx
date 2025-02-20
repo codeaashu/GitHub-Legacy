@@ -34,7 +34,7 @@ export default function Footer() {
           
           <div className="flex items-center space-x-4">
             <a 
-              href="https://github.com/omeryaldirgan/" 
+              href="https://github.com/codeaashu/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-surface-600/75 hover:text-surface-900 
@@ -51,7 +51,7 @@ export default function Footer() {
               </svg>
             </a>
             <a 
-              href="https://www.linkedin.com/in/omeryaldirgan/" 
+              href="https://www.linkedin.com/in/ashutoshkumaraashu/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-surface-600/75 hover:text-surface-900 

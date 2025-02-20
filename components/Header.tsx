@@ -26,10 +26,10 @@ export default function Header() {
   useEffect(() => {
     const fetchRepoStats = async () => {
       try {
-        const data = await fetchGitHubData('omeryaldirgan');
+        const data = await fetchGitHubData('codeaashu');
         if (data.repositories && data.repositories.length > 0) {
           const mainRepo = data.repositories.find((repo: Repository) => 
-            repo.name === 'github-resume-generator'
+            repo.name === 'github-legacy'
           );
           if (mainRepo) {
             setRepoStats({ stars: mainRepo.stargazers_count });
@@ -98,7 +98,7 @@ export default function Header() {
             </button>
 
             <Link 
-              href="https://github.com/omeryaldirgan/github-resume-generator" 
+              href="https://github.com/codeaashu/GitHub-Legacy" 
               target="_blank"
               className="flex items-center space-x-2 text-surface-600 dark:text-slate-400 
                 hover:text-primary-600 dark:hover:text-primary-400 

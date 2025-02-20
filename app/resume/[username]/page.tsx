@@ -65,7 +65,7 @@ export default function ResumePage() {
 
       const opt = {
         margin: 15,
-        filename: `github-resume-generator-${username}.pdf`,
+        filename: `github-resume-${username}.pdf`,
         image: { type: 'jpeg', quality: 0.98 },
         html2canvas: { 
           scale: 2,

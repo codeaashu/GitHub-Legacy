@@ -60,7 +60,7 @@ export default function MainContent() {
                 dark:from-primary-300 dark:to-purple-300
                 leading-tight tracking-tight
               ">
-                GitHub Resume Generator
+                GitHub Legacy
               </h1>
               <p className="text-surface-600/90 dark:text-slate-400 text-base leading-relaxed max-w-md">
                 Transform your GitHub journey into a professional resume in seconds
@@ -99,7 +99,7 @@ export default function MainContent() {
               <div className="mt-6 flex items-center justify-between">
                 <p className="text-surface-500 dark:text-slate-500 text-sm">
                   Popular profiles:{' '}
-                  {['torvalds', 'omeryaldirgan', 'MhmtMutlu'].map((name, index) => (
+                  {['akshaymarch7', 'codeaashu', 'hiteshchoudhary'].map((name, index) => (
                     <React.Fragment key={name}>
                       <button
                         onClick={() => handleExampleClick(name)}
