@@ -1,6 +1,5 @@
 <div align="center"> 
 <a href="https://www.devdisplay.org/" target="_blank"><img src="./public/PoweredByDevDisplay.png" width="300px" /></a>
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="2300">
 
   <h1 align="center">GitHub Legacy</h1>
   <img src="./public/LOGO.png" width="100px" />
