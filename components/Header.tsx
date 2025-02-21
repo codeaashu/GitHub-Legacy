@@ -54,7 +54,7 @@ export default function Header() {
                 bg-gradient-to-r from-primary-600 to-primary-500 
                 dark:from-primary-400 dark:to-primary-500 
                 bg-clip-text text-transparent">
-                GitHub Resume
+                GitHub Legacy
               </span>
             </Link>
           </div>

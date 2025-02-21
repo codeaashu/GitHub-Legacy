@@ -52,7 +52,7 @@ export default function MainContent() {
                   dark:bg-slate-800/80 dark:text-primary-300
                   dark:ring-1 dark:ring-primary-500/30 dark:shadow-lg dark:shadow-primary-950/20
                 ">
-                  ✨ Your GitHub Profile, Reimagined
+                  ✨ Powered By DevDisplay
                 </span>
               </div>
               <h1 className="text-4xl font-bold mb-3 
