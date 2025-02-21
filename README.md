@@ -127,5 +127,5 @@ This project is licensed under <a href="./LICENSE">MIT</a>. <img width=2300/>
     <a href="#top">
         <img src="https://img.shields.io/badge/Back%20to%20Top-000000?style=for-the-badge&logo=github&logoColor=white" alt="Back to Top">
     </a><br>
-<img src="./public/GitHubLegacy.jpg" width="1000px" /><br>
+<img src="./public/GitHubLegacy.JPG" width="1000px" /><br>
 </div>
