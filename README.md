@@ -111,7 +111,7 @@ Ashutosh Singh - [@warrior_aashuu](https://twitter.com/warrior_aashuu)
   <h4 align="center">✦ Transform your GitHub journey into a professional resume in seconds! ✦</h4>
   
   
-  ` Helpmate is a AI ChatBot web app where you can ask any question and you will get the answer. `
+  ` This tool automatically generates beautiful, customizable resumes by analyzing your GitHub activity, repositories, and contributions. Whether you're a developer, open-source contributor, or tech enthusiast, GitHubLegacy helps you showcase your legacy of innovation in a sleek and professional format. `
 <hr><img src="./public/Helpmate Mockup.png"/>
 
   ` Features 🌟 `
