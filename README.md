@@ -1,6 +1,6 @@
 <div align="center"> 
-<a href="https://www.devdisplay.org/" target="_blank"><img src="./public/PoweredByDevDisplay.png" width="300px" /></a><br>
-</div>
+<a href="https://www.devdisplay.org/" target="_blank"><img src="./public/PoweredByDevDisplay.png" width="300px" /></a>
+</div></br>
 
 <div align="center"> 
 <img src="./public/LOGO.png" width="100px" /><br>
