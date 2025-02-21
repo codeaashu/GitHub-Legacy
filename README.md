@@ -1,13 +1,14 @@
 <div align="center"> 
 <a href="https://www.devdisplay.org/" target="_blank"><img src="./public/PoweredByDevDisplay.png" width="300px" /></a>
 
-  <h1 align="center">GitHub Legacy</h1>
-  <img src="./public/LOGO.png" width="100px" /><br>
-  <br><a href="https://GitHub-Legacy.vercel.app/"><strong>Visit Now</strong></a>
-  <h4 align="center">✦ Transform your GitHub journey into a professional resume in seconds! ✦</h4>
+
+<img src="./public/LOGO.png" width="100px" /><br>
+<h1 align="center"><a href="https://GitHub-Legacy.vercel.app/"><strong>GitHub Legacy</strong></a></h1>
+
+<h4 align="center">✦ Transform your GitHub journey into a professional resume in seconds! ✦</h4>
   
   
-  ` This tool automatically generates beautiful, customizable resumes by analyzing your GitHub activity, repositories, and contributions. Whether you're a developer, open-source contributor, or tech enthusiast, GitHubLegacy helps you showcase your legacy of innovation in a sleek and professional format. `
+` This tool automatically generates beautiful, customizable resumes by analyzing your GitHub activity, repositories, and contributions. Whether you're a developer, open-source contributor, or tech enthusiast, GitHubLegacy helps you showcase your legacy of innovation in a sleek and professional format. `
 <hr></div>
 
 
