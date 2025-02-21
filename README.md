@@ -99,17 +99,16 @@ Ashutosh Singh - [@warrior_aashuu](https://twitter.com/warrior_aashuu)
 
 <div align="center">                                                                                                
   
-  ![GitHub repo size](https://img.shields.io/github/repo-size/codeaashu/Helpmate-AI)
-  ![GitHub stars](https://img.shields.io/github/stars/codeaashu/Helpmate-AI?style=social) 
-  ![GitHub forks](https://img.shields.io/github/forks/codeaashu/Helpmate-AI?style=social)
+  ![GitHub repo size](https://img.shields.io/github/repo-size/codeaashu/GitHub-Legacy)
+  ![GitHub stars](https://img.shields.io/github/stars/codeaashu/GitHub-Legacy?style=social) 
+  ![GitHub forks](https://img.shields.io/github/forks/codeaashu/GitHub-Legacy?style=social)
 [![Twitter Follow](https://img.shields.io/twitter/follow/warrior_aashuu?style=social)](https://twitter.com/intent/follow?screen_name=warrior_aashuu)
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="2300">
-  <h1 align="center">🤖 Introducing to Helpmate AI 🤖</h1>
-  <img src="./public/Helpmate-AI.png" width="100px" />
-  <br><a href="https://helpmate-ai.vercel.app/"><strong>HELPMATE   AI</strong></a>
-  <h4 align="center">✦ Let's take help with your AI mate! ✦</h4>
-  <a href="https://ai.google.dev/competition/projects/helpmate-ai"><strong>Click here to vote our APP</strong></a></br>
+  <h1 align="center">GitHub Legacy</h1>
+  <img src="./public/LOGO.png" width="140px" />
+  <br><a href="https://GitHub-Legacy.vercel.app/"><strong>GitHub Legacy</strong></a>
+  <h4 align="center">✦ Transform your GitHub journey into a professional resume in seconds! ✦</h4>
   
   
   ` Helpmate is a AI ChatBot web app where you can ask any question and you will get the answer. `

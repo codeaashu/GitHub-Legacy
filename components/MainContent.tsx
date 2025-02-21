@@ -53,7 +53,7 @@ export default function MainContent() {
                   dark:bg-slate-800/80 dark:text-primary-300
                   dark:ring-1 dark:ring-primary-500/30 dark:shadow-lg dark:shadow-primary-950/20
                 ">
-                  ✨ Powered By <a href="https://www.devdisplay.org/" target="_blank" rel="noopener noreferrer"><Image src={devDisplayLogo} alt="DevDisplay Logo" width={130} height={80} className="inline-block" /></a>
+                  ✨ Powered By <Image src={devDisplayLogo} alt="DevDisplay Logo" width={130} height={80} className="inline-block" />
                 </span>
               </div>
               <h1 className="text-4xl font-bold mb-3 
