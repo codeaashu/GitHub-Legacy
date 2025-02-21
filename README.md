@@ -1,7 +1,8 @@
 <div align="center"> 
 <a href="https://www.devdisplay.org/" target="_blank"><img src="./public/PoweredByDevDisplay.png" width="300px" /></a><br>
+</div>
 
-
+<div align="center"> 
 <img src="./public/LOGO.png" width="100px" /><br>
 <h1 align="center"><a href="https://GitHub-Legacy.vercel.app/"><strong>GitHub Legacy</strong></a></h1>
 
