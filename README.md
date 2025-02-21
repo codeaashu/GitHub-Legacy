@@ -1,6 +1,16 @@
-# GitHub Legacy
+<div align="center"> 
+<a href="https://www.devdisplay.org/" target="_blank"><img src="./public/PoweredByDevDisplay.png" width="300px" /></a>
+</div></br></br>
 
-Transform your GitHub profile into a professional resume instantly. This tool automatically generates beautiful, customizable resumes by analyzing your GitHub activity, repositories, and contributions.
+<div align="center"> 
+<img src="./public/LOGO.png" width="100px" /><br>
+<h1 align="center"><a href="https://GitHub-Legacy.vercel.app/"><strong>GitHub Legacy</strong></a></h1>
+
+<h4 align="center">✦ Transform your GitHub journey into a professional resume in seconds! ✦</h4>
+  
+  
+` This tool automatically generates beautiful, customizable resumes by analyzing your GitHub activity, repositories, and contributions. Whether you're a developer, open-source contributor, or tech enthusiast, GitHubLegacy helps you showcase your legacy of innovation in a sleek and professional format. `
+<hr></div>
 
 
 ## ✨ Features
@@ -91,54 +101,31 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [GitHub API](https://docs.github.com/en/rest) for providing the data
 - All contributors who help improve this project
 
-## 📧 Contact
 
-Ashutosh Singh - [@warrior_aashuu](https://twitter.com/warrior_aashuu)
+<hr><h4 align="center"><a href="https://github.com/codeaashu"><div align="center"><h1 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Man%20Technologist.webp" alt="Man Technologist" width="75" height="75" /></div></a><br>Build By <a href="https://www.ashutoshkumar.me"><strong>Ashutosh Singh</strong></a><br><br>
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/ashutoshkumaraashu) [![Twitter Follow](https://img.shields.io/twitter/follow/warrior_aashuu?style=social)](https://twitter.com/intent/follow?screen_name=warrior_aashuu)<br>
+<br>A creative Full Stack Web Developer & Designer • Till now build 50+ WEB APP</h4><hr>
 
+<h1 align="center">© LICENSE <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Symbols/Check%20Box%20With%20Check.webp" alt="Check Box With Check" width="25" height="25" /></h1>
 
-<div align="center">                                                                                                
-  
-  ![GitHub repo size](https://img.shields.io/github/repo-size/codeaashu/GitHub-Legacy)
-  ![GitHub stars](https://img.shields.io/github/stars/codeaashu/GitHub-Legacy?style=social) 
-  ![GitHub forks](https://img.shields.io/github/forks/codeaashu/GitHub-Legacy?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/warrior_aashuu?style=social)](https://twitter.com/intent/follow?screen_name=warrior_aashuu)
+<table align="center">
+  <tr>
+     <td>
+       <p align="center"> <img src="https://github.com/malivinayak/malivinayak/blob/main/LICENSE-Logo/MIT.png?raw=true" width="80%"></img>
+    </td>
+    <td> 
+      <img src="https://img.shields.io/badge/License-MIT-yellow.svg"/> <br> 
+This project is licensed under <a href="./LICENSE">MIT</a>. <img width=2300/>
+    </td>
+  </tr>
+</table>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="2300">
-  <h1 align="center">GitHub Legacy</h1>
-  <img src="./public/LOGO.png" width="140px" />
-  <br><a href="https://GitHub-Legacy.vercel.app/"><strong>GitHub Legacy</strong></a>
-  <h4 align="center">✦ Transform your GitHub journey into a professional resume in seconds! ✦</h4>
-  
-  
-  ` Helpmate is a AI ChatBot web app where you can ask any question and you will get the answer. `
-<hr><img src="./public/Helpmate Mockup.png"/>
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
 
-  ` Features 🌟 `
+<div align="center">
+    <a href="#top">
+        <img src="https://img.shields.io/badge/Back%20to%20Top-000000?style=for-the-badge&logo=github&logoColor=white" alt="Back to Top">
+    </a><br>
+<img src="./public/GitHubLegacy.JPG" width="1000px" /><br>
 </div>
-
-```
-  🤖 Conversational AI Interface
-  📝 Text Summarization
-  🧩 Question Answering
-  📲 Responsive Layout
-  🎨 Sleek Design
-  📈 Scalability and Performance
-```
-<div align="center"><hr>
-  
-` Technologies Used 💻 `
-
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=plastic&logo=react&logoColor=%2361DAFB) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=plastic&logo=tailwind-css&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=plastic&logo=npm&logoColor=white) ![React Query](https://img.shields.io/badge/-React%20Query-FF4154?style=plastic&logo=react%20query&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=plastic&logo=vite&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=plastic&logo=vercel&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=plastic&logo=netlify&logoColor=#00C7B7) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=plastic&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=plastic&logo=github&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=plastic&logo=githubactions&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=plastic&logo=postman&logoColor=white) <br>
-
- <details>
-    <summary>Instructions for Testing Helpmate AI</summary>
-    <a href="#"><img src="./public/technologist.png" width="150"></a> <br>
-
-## Step 1: Open the App
-Click on the provided link to access the app in your browser.
-User Interface: You'll be welcomed by a clean, minimalistic interface designed for ease of use. In the text box provided, type in any question you want to ask Helpmate AI.
-Click the "Generate Answer" button to submit your question.
-
-## Step 2: Receive Answer
-Helpmate AI will process your question using Google Gemini API and provide you with a comprehensive answer. The answer will be displayed as text in the response section.
