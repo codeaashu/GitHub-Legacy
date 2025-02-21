@@ -7,7 +7,7 @@
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="2300">
   <h1 align="center">GitHub Legacy</h1>
-  <img src="./public/LOGO.png" width="140px" />
+  <img src="./public/LOGO.png" width="100px" />
   <br><a href="https://GitHub-Legacy.vercel.app/"><strong>GitHub Legacy</strong></a>
   <h4 align="center">✦ Transform your GitHub journey into a professional resume in seconds! ✦</h4>
   
