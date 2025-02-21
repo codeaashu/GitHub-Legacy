@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useTheme } from '@/context/ThemeContext';
 import { Sun, Moon, Github,Download } from 'lucide-react';
 import { usePathname } from 'next/navigation';
@@ -9,6 +10,7 @@ import { useEffect, useState } from 'react';
 import { fetchGitHubData } from '@/lib/github-api';
 import { useResume } from '@/context/ResumeContext';
 import ProductHuntBadge from './ProductHuntBadge';
+import logo from '@/assets/LOGO.png';
 
 interface Repository {
   name: string;
@@ -49,12 +51,12 @@ export default function Header() {
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-2">
-              <Github className="h-8 w-8 text-primary-600 dark:text-primary-400" />
+            <Image src={logo} alt="Logo" width={32} height={32} className="h-8 w-8" />
               <span className="hidden sm:inline-block font-bold text-xl 
                 bg-gradient-to-r from-primary-600 to-primary-500 
                 dark:from-primary-400 dark:to-primary-500 
                 bg-clip-text text-transparent">
-                GitHub Legacy
+                GitHub Resume Generator
               </span>
             </Link>
           </div>

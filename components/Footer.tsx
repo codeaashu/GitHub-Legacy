@@ -1,4 +1,6 @@
-import { Linkedin } from 'lucide-react';
+import { Linkedin, Twitter } from 'lucide-react';
+import Image from 'next/image';
+import websiteIcon from '@/assets/ICON.png';
 
 export default function Footer() {
   return (
@@ -33,6 +35,23 @@ export default function Footer() {
           </div>
           
           <div className="flex items-center space-x-4">
+          <a 
+              href="https://www.devdisplay.org/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-surface-600/75 hover:text-surface-900 
+                dark:text-slate-400/75 dark:hover:text-slate-200
+                transition-colors duration-200
+                hover:scale-110 transform"
+            >
+              <Image 
+                src={websiteIcon} 
+                alt="Website Icon" 
+                width={20} 
+                height={20} 
+                className="w-5 h-5"
+              />
+            </a>
             <a 
               href="https://github.com/codeaashu/" 
               target="_blank" 
@@ -60,6 +79,17 @@ export default function Footer() {
                 hover:scale-110 transform"
             >
               <Linkedin size={20} />
+            </a>
+            <a 
+              href="https://x.com/warrior_aashuu" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-surface-600/75 hover:text-surface-900 
+                dark:text-slate-400/75 dark:hover:text-slate-200
+                transition-colors duration-200
+                hover:scale-110 transform"
+            >
+              <Twitter size={20} />
             </a>
           </div>
         </div>
