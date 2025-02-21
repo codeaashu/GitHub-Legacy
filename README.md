@@ -7,9 +7,9 @@
   ![GitHub forks](https://img.shields.io/github/forks/codeaashu/GitHub-Legacy?style=social)
 [![Twitter Follow](https://img.shields.io/twitter/follow/warrior_aashuu?style=social)](https://twitter.com/intent/follow?screen_name=warrior_aashuu)
 
-  <h1 align="center">GitHub Legacy: ✨ Your GitHub Profile, Reimagined</h1>
+  <h1 align="center">GitHub Legacy ✨ Github Resume Generator</h1>
   <img src="./public/LOGO.png" width="100px" />
-  <br><a href="https://GitHub-Legacy.vercel.app/"><strong>GitHub Legacy</strong></a>
+  <br><a href="https://GitHub-Legacy.vercel.app/"><strong>Visit Now</strong></a>
   <h4 align="center">✦ Transform your GitHub journey into a professional resume in seconds! ✦</h4>
   
   
