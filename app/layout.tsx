@@ -19,6 +19,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/LOGO.png" />
+        <title>GitHub Legacy</title>
+      </head>
       <body className={`${inter.className} min-h-screen flex flex-col`}>
         <ThemeProvider>
           <ResumeProvider>
