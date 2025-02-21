@@ -5,8 +5,9 @@
   ![GitHub forks](https://img.shields.io/github/forks/codeaashu/GitHub-Legacy?style=social)
 [![Twitter Follow](https://img.shields.io/twitter/follow/warrior_aashuu?style=social)](https://twitter.com/intent/follow?screen_name=warrior_aashuu)
 
+<a href="https://www.devdisplay.org/" target="_blank"><img src="./public/PoweredByDevDisplay.png" width="100px" /></a>
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="2300">
-  <h1 align="center">GitHub Legacy</h1>
+  <h1 align="center">GitHub Legacy: ✨ Your GitHub Profile, Reimagined</h1>
   <img src="./public/LOGO.png" width="100px" />
   <br><a href="https://GitHub-Legacy.vercel.app/"><strong>GitHub Legacy</strong></a>
   <h4 align="center">✦ Transform your GitHub journey into a professional resume in seconds! ✦</h4>
