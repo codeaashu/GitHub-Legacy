@@ -102,7 +102,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - All contributors who help improve this project
 
 
-<hr><h4 align="center"><a href="https://github.com/codeaashu"><div align="center"><h1 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Man%20Technologist.webp" alt="Man Technologist" width="75" height="75" /></div></a><br>Build By 🌟<a href="https://www.ashutoshkumar.me"><strong>Ashutosh Singh</strong></a><br><br>
+<hr><h4 align="center"><a href="https://github.com/codeaashu"><div align="center"><h1 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Man%20Technologist.webp" alt="Man Technologist" width="75" height="75" /></div></a><br>Build By <a href="https://www.ashutoshkumar.me"><strong>Ashutosh Singh</strong></a><br><br>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/ashutoshkumaraashu) [![Twitter Follow](https://img.shields.io/twitter/follow/warrior_aashuu?style=social)](https://twitter.com/intent/follow?screen_name=warrior_aashuu)<br>
 <br>A creative Full Stack Web Developer & Designer • Till now build 50+ WEB APP</h4><hr>
