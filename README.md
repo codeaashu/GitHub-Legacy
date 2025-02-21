@@ -127,5 +127,5 @@ This project is licensed under <a href="./LICENSE">MIT</a>. <img width=2300/>
     <a href="#top">
         <img src="https://img.shields.io/badge/Back%20to%20Top-000000?style=for-the-badge&logo=github&logoColor=white" alt="Back to Top">
     </a><br>
-     <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Mirror%20Ball.png" alt="Mirror Ball" width="150" height="150" />
+<img src="./public/GitHubLegacy.png" width="1000px" /><br>
 </div>
