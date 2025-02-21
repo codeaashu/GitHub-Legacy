@@ -2,7 +2,7 @@
 <a href="https://www.devdisplay.org/" target="_blank"><img src="./public/PoweredByDevDisplay.png" width="300px" /></a>
 
   <h1 align="center">GitHub Legacy</h1>
-  <img src="./public/LOGO.png" width="100px" />
+  <img src="./public/LOGO.png" width="100px" /><br>
   <br><a href="https://GitHub-Legacy.vercel.app/"><strong>Visit Now</strong></a>
   <h4 align="center">✦ Transform your GitHub journey into a professional resume in seconds! ✦</h4>
   
