@@ -18,7 +18,7 @@ interface Repository {
 }
 
 export default function Header() {
-  const [repoStats, setRepoStats] = useState({ stars: 0 });
+  const [repoStats, setRepoStats] = useState({ stars: 11 });
   const { theme, toggleTheme } = useTheme();
   const pathname = usePathname();
   const isResumePage = pathname?.startsWith('/resume/') ?? false;
