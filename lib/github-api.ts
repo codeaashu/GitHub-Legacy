@@ -146,36 +146,28 @@ export async function fetchGitHubData(username: string): Promise<any> {
       }
     }).flat().filter(Boolean);
 
-    // GitHub Achievements'ları çek
-    const achievementsResponse = await fetch(
-      `https://api.github.com/users/${username}/achievements`,
-      { headers }
-    );
+    // Avoid calling a non-standard achievements endpoint and limit
+    // detailed repo requests to speed up the response.
+    const achievements = {};
 
-    // Başarıları formatla
-    const achievements = {
-      topContributor: true,
-      quickDrawAchievement: true,
-      pairExtraordinaire: true,
-      // ...diğer başarılar
-    };
-
-    // Repoların detaylı bilgilerini çek
+    // Repoların detaylı bilgilerini çek (sadece ilk 10 repo)
+    const reposToInspect = Array.isArray(reposData) ? reposData.slice(0, 10) : [];
     const detailedRepos = await Promise.all(
-      reposData.map(async (repo: any) => {
+      reposToInspect.map(async (repo: any) => {
         // Dil istatistiklerini çek
         const languagesResponse = await fetch(
           `https://api.github.com/repos/${username}/${repo.name}/languages`,
           { headers }
         );
-        const languages = await languagesResponse.json();
+        const languages = languagesResponse.ok ? await languagesResponse.json() : {};
 
         // Commit sayısını çek
         const commitsResponse = await fetch(
           `https://api.github.com/repos/${username}/${repo.name}/commits?per_page=1`,
           { headers }
         );
-        const commits = parseInt(commitsResponse.headers.get('x-total-count') || '0');
+        // GitHub does not reliably provide x-total-count; fallback to 0
+        const commits = parseInt(commitsResponse.headers.get('x-total-count') || '0') || 0;
 
         // package.json analizi
         let dependencies = {};

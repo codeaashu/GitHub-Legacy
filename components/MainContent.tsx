@@ -204,9 +204,9 @@ export default function MainContent() {
               </div>
             </div>
             
-            <div className="block sm:hidden">
+            {/*<div className="block sm:hidden">
               <ProductHuntBadge size="large" />
-            </div>
+            </div>*/}
           </div>
 
           {/* Illustration */}
