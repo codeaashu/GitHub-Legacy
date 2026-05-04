@@ -8,15 +8,12 @@ import resumeImage from '@/assets/illustration-dashboard.webp';
 import devDisplayLogo from '@/assets/WordMark.png';
 import { cn } from '@/lib/utils';
 import React from 'react';
-import { useTheme } from '@/context/ThemeContext';
-import ProductHuntBadge from './ProductHuntBadge';
 
 export default function MainContent() {
   const router = useRouter();
   const [username, setUsername] = useState('');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const { theme } = useTheme();
 
   const handleGenerateResume = async () => {
     if (!username || loading) return;
@@ -53,7 +50,7 @@ export default function MainContent() {
                   dark:bg-slate-800/80 dark:text-primary-300
                   dark:ring-1 dark:ring-primary-500/30 dark:shadow-lg dark:shadow-primary-950/20
                 ">
-                  ✨ Powered By <a href="https://www.devdisplay.org/" target="_blank" rel="noopener noreferrer"><Image src={devDisplayLogo} alt="DevDisplay Logo" width={130} height={80} className="inline-block" /></a>
+                  Backed By <a href="https://www.devdisplay.org/" target="_blank" rel="noopener noreferrer"><Image src={devDisplayLogo} alt="DevDisplay Logo" width={130} height={80} className="inline-block" /></a>
                 </span>
               </div>
               <h1 className="text-4xl font-bold mb-3 
@@ -99,8 +96,8 @@ export default function MainContent() {
 
               <div className="mt-6 flex items-center justify-between">
                 <p className="text-surface-500 dark:text-slate-500 text-sm">
-                  Popular profiles:{' '}
-                  {['akshaymarch7', 'codeaashu', 'hiteshchoudhary'].map((name, index) => (
+                  Creator profile:{' '}
+                  {['codeaashu'].map((name, index) => (
                     <React.Fragment key={name}>
                       <button
                         onClick={() => handleExampleClick(name)}
@@ -108,7 +105,7 @@ export default function MainContent() {
                       >
                         {name}
                       </button>
-                      {index < 2 && <span className="mr-1">,</span>}
+                      {index < 2 && <span className="mr-1"></span>}
                     </React.Fragment>
                   ))}
                 </p>

@@ -81,7 +81,7 @@ export default function Footer() {
               <Linkedin size={20} />
             </a>
             <a 
-              href="https://x.com/warrior_aashuu" 
+              href="https://x.com/warrioraashuu" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-surface-600/75 hover:text-surface-900 

@@ -2,14 +2,12 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { useTheme } from '@/context/ThemeContext';
-import { Sun, Moon, Github,Download } from 'lucide-react';
+import { Github, Twitter, Download } from 'lucide-react';
 import { usePathname } from 'next/navigation';
 import { cn } from '@/lib/utils';
 import { useEffect, useState } from 'react';
 import { fetchGitHubData } from '@/lib/github-api';
 import { useResume } from '@/context/ResumeContext';
-import ProductHuntBadge from './ProductHuntBadge';
 import logo from '@/assets/LOGO.png';
 
 interface Repository {
@@ -18,8 +16,7 @@ interface Repository {
 }
 
 export default function Header() {
-  const [repoStats, setRepoStats] = useState({ stars: 112 });
-  const { theme, toggleTheme } = useTheme();
+  const [repoStats, setRepoStats] = useState({ stars: 22 });
   const pathname = usePathname();
   const isResumePage = pathname?.startsWith('/resume/') ?? false;
   const isHomePage = pathname === '/';
@@ -62,7 +59,7 @@ export default function Header() {
           </div>
 
           <div className="flex items-center gap-2 sm:gap-4">
-            <ProductHuntBadge size="small" className="hidden sm:block" />
+            {/* <ProductHuntBadge size="small" className="hidden sm:block" /> */}
 
             {isResumePage && (
               <button 
@@ -87,28 +84,26 @@ export default function Header() {
               </button>
             )}
 
-            <button
-              onClick={toggleTheme}
-              className="p-2 rounded-lg hover:bg-surface-100 dark:hover:bg-slate-800/50 
-                transition-colors duration-200"
-            >
-              {theme === 'dark' ? (
-                <Sun className="text-slate-400 hover:text-slate-200" size={20} />
-              ) : (
-                <Moon className="text-surface-600 hover:text-surface-900" size={20} />
-              )}
-            </button>
-
             <Link 
-              href="https://github.com/codeaashu/GitHub-Legacy" 
+              href="https://github.com/codeaashu/" 
               target="_blank"
               className="flex items-center space-x-2 text-surface-600 dark:text-slate-400 
                 hover:text-primary-600 dark:hover:text-primary-400 
                 transition-colors duration-200"
             >
               <Github size={20} />
-              <span className="font-medium">{repoStats.stars}</span>
+              {/* <span className="font-medium">{repoStats.stars}</span> */}
             </Link>
+            <a 
+              href="https://x.com/warrioraashuu" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex items-center space-x-2 text-surface-600 dark:text-slate-400 
+                hover:text-primary-600 dark:hover:text-primary-400 
+                transition-colors duration-200"
+            >
+              <Twitter size={20} />
+            </a>
           </div>
         </div>
       </div>
